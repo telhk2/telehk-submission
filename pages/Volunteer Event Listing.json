@@ -1,0 +1,339 @@
+{
+  "unpublishedPage": {
+    "name": "Volunteer Event Listing",
+    "slug": "volunteer-event-listing",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 816,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1190,
+          "containerStyle": "none",
+          "snapRows": 59,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 52,
+          "minHeight": 600,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "NONE",
+              "widgetName": "Container1",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 17,
+              "bottomRow": 117,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 24.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 589.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "g65srr1xt2",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 980,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "zy3qqys3n7",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "isCompact": false,
+                      "widgetName": "MenuButton2",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Menu Button",
+                      "iconSVG": "/static/media/icon.0341d17d.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "MENU_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 17.9375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "menuItems.menuItem1.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItema7parfeqzf.onClick"
+                        }
+                      ],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "key": "35tphojhiy",
+                      "rightColumn": 6,
+                      "iconName": "align-justify",
+                      "menuVariant": "PRIMARY",
+                      "widgetId": "dbgks9b12l",
+                      "menuItems": {
+                        "menuItema7parfeqzf": {
+                          "id": "menuItema7parfeqzf",
+                          "label": "Volunteer Event Listing",
+                          "widgetId": "qts8tilfhn",
+                          "isDisabled": false,
+                          "isVisible": true,
+                          "index": 0,
+                          "onClick": "{{navigateTo('Volunteer Event Listing', {})}}"
+                        },
+                        "menuItem1": {
+                          "label": "Volunteer Registration ",
+                          "id": "menuItem1",
+                          "widgetId": "",
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "index": 1,
+                          "onClick": "{{navigateTo('Volunteer Registration for Eve', {})}}"
+                        }
+                      },
+                      "isVisible": true,
+                      "label": "",
+                      "version": 1,
+                      "parentId": "g65srr1xt2",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "menuColor": "#03B365",
+                      "iconAlign": "left",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "widgetName": "Iframe1Copy",
+                      "displayName": "Iframe",
+                      "iconSVG": "/static/media/icon.34169b6a.svg",
+                      "topRow": 0,
+                      "bottomRow": 96,
+                      "parentRowSpace": 10,
+                      "source": "https://datastudio.google.com/embed/reporting/d8ea7d44-6b52-4fdb-82e3-5cc20af58fd6/page/f2OkC",
+                      "type": "IFRAME_WIDGET",
+                      "hideCard": false,
+                      "borderOpacity": 100,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.0625,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 8,
+                      "dynamicBindingPathList": [],
+                      "borderWidth": 1,
+                      "key": "n4a9c828vo",
+                      "rightColumn": 63,
+                      "widgetId": "l16r6jievs",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "g65srr1xt2",
+                      "renderMode": "CANVAS",
+                      "isLoading": false
+                    }
+                  ],
+                  "key": "f9cj79x55t"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "1g6v5fvwbl",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 63,
+              "widgetId": "zy3qqys3n7",
+              "containerStyle": "card",
+              "isVisible": "{{ appsmith.store.adminFlag == false}}",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0"
+            },
+            {
+              "boxShadow": "NONE",
+              "widgetName": "Container2",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 1,
+              "bottomRow": 15,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 24.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas2",
+                  "rightColumn": 589.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "i8d08jew67",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "oxcfmpxx43",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Button1",
+                      "onClick": "{{navigateTo('Login', {})}}",
+                      "buttonColor": "#03B365",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 7,
+                      "bottomRow": 11,
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 22.3310546875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 24,
+                      "dynamicBindingPathList": [],
+                      "text": "Back to Login Page",
+                      "isDisabled": false,
+                      "key": "cgh6d9hizz",
+                      "rightColumn": 40,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "iqijss46kh",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "i8d08jew67",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "widgetName": "Text1",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 22.3310546875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 24,
+                      "dynamicBindingPathList": [],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Unauthorized, please go back to login page",
+                      "key": "4vasgusjnr",
+                      "rightColumn": 40,
+                      "textAlign": "LEFT",
+                      "widgetId": "uilh27e4gs",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "shouldScroll": false,
+                      "version": 1,
+                      "parentId": "i8d08jew67",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "fontSize": "PARAGRAPH"
+                    }
+                  ],
+                  "key": "f9cj79x55t"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "1g6v5fvwbl",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 63,
+              "widgetId": "oxcfmpxx43",
+              "containerStyle": "card",
+              "isVisible": "{{ appsmith.store.adminFlag == null || appsmith.store.adminFlag == true}}",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "Button1",
+          "Canvas1",
+          "Canvas2",
+          "Container1",
+          "Container2",
+          "Iframe1Copy",
+          "MainContainer",
+          "MenuButton2",
+          "Text1"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Volunteer Event Listing",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_622c9eb90bf98b2d5df751db"
+}

@@ -1,0 +1,375 @@
+{
+  "unpublishedPage": {
+    "name": "Recommender",
+    "slug": "recommender",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 561,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 990,
+          "containerStyle": "none",
+          "snapRows": 52,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 52,
+          "minHeight": 990,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "NONE",
+              "widgetName": "Container2",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 1,
+              "bottomRow": 15,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 24.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas2",
+                  "rightColumn": 589.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "x193z19pu9",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "5ihbcv04vq",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Button1",
+                      "onClick": "{{navigateTo('Login', {})}}",
+                      "buttonColor": "#03B365",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 7,
+                      "bottomRow": 11,
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 22.3310546875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 24,
+                      "dynamicBindingPathList": [],
+                      "text": "Back to Login Page",
+                      "isDisabled": false,
+                      "key": "cgh6d9hizz",
+                      "rightColumn": 40,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "quca996apy",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "x193z19pu9",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "widgetName": "Text1",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 22.3310546875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 24,
+                      "dynamicBindingPathList": [],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Unauthorized, please go back to login page",
+                      "key": "4vasgusjnr",
+                      "rightColumn": 40,
+                      "textAlign": "LEFT",
+                      "widgetId": "okyaouatfz",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "shouldScroll": false,
+                      "version": 1,
+                      "parentId": "x193z19pu9",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "fontSize": "PARAGRAPH"
+                    }
+                  ],
+                  "key": "f9cj79x55t"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "1g6v5fvwbl",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 63,
+              "widgetId": "5ihbcv04vq",
+              "containerStyle": "card",
+              "isVisible": "{{ appsmith.store.adminFlag == null || appsmith.store.adminFlag == false}}",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0"
+            },
+            {
+              "boxShadow": "NONE",
+              "widgetName": "Container1",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 16,
+              "bottomRow": 97,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 24.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 589.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "pbplal9xfn",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 720,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "d7g0fkmj2p",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "isCompact": false,
+                      "widgetName": "MenuButton1",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Menu Button",
+                      "iconSVG": "/static/media/icon.0341d17d.svg",
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "parentRowSpace": 10,
+                      "type": "MENU_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 17.9375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "menuItems.menuItem1.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItem74wb8t5jnd.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItem8c3160i5j0.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItemifukc4a0xi.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItema7parfeqzf.onClick"
+                        }
+                      ],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "key": "35tphojhiy",
+                      "rightColumn": 7,
+                      "iconName": "align-justify",
+                      "menuVariant": "PRIMARY",
+                      "widgetId": "tcww9kjk1o",
+                      "menuItems": {
+                        "menuItema7parfeqzf": {
+                          "id": "menuItema7parfeqzf",
+                          "label": "Admin Dashboard",
+                          "widgetId": "qts8tilfhn",
+                          "isDisabled": false,
+                          "isVisible": true,
+                          "index": 0,
+                          "onClick": "{{navigateTo('Admin Dashboard', {})}}"
+                        },
+                        "menuItem1": {
+                          "label": "Admin Events",
+                          "id": "menuItem1",
+                          "widgetId": "",
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "index": 1,
+                          "onClick": "{{navigateTo('Admin Events', {})}}"
+                        },
+                        "menuItem74wb8t5jnd": {
+                          "id": "menuItem74wb8t5jnd",
+                          "label": "Events Management",
+                          "widgetId": "5opoxi4ybg",
+                          "isDisabled": false,
+                          "isVisible": true,
+                          "onClick": "{{navigateTo('Event Management', {})}}",
+                          "index": 2
+                        },
+                        "menuItem8c3160i5j0": {
+                          "id": "menuItem8c3160i5j0",
+                          "label": "Volunteers Hours Report",
+                          "widgetId": "c7mstmwsgb",
+                          "isDisabled": false,
+                          "isVisible": true,
+                          "onClick": "{{navigateTo('Volunteers Hours Report', {})}}",
+                          "index": 3
+                        },
+                        "menuItemifukc4a0xi": {
+                          "id": "menuItemifukc4a0xi",
+                          "label": "Recommender",
+                          "widgetId": "5r853e9y5j",
+                          "isDisabled": false,
+                          "isVisible": true,
+                          "onClick": "{{navigateTo('Recommender', {})}}",
+                          "index": 4
+                        }
+                      },
+                      "isVisible": true,
+                      "label": "",
+                      "version": 1,
+                      "parentId": "pbplal9xfn",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "menuColor": "#03B365",
+                      "iconAlign": "left",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "widgetName": "Iframe1",
+                      "displayName": "Iframe",
+                      "iconSVG": "/static/media/icon.34169b6a.svg",
+                      "topRow": 4,
+                      "bottomRow": 70,
+                      "parentRowSpace": 10,
+                      "source": "https://datastudio.google.com/embed/reporting/c8954fa8-c571-4738-94c5-63314ea27f4f/page/qKjlC\n",
+                      "type": "IFRAME_WIDGET",
+                      "hideCard": false,
+                      "borderOpacity": 100,
+                      "animateLoading": true,
+                      "parentColumnSpace": 10.0625,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 10,
+                      "dynamicBindingPathList": [],
+                      "borderWidth": 1,
+                      "key": "n4a9c828vo",
+                      "rightColumn": 63,
+                      "widgetId": "ljcq1i9196",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "pbplal9xfn",
+                      "renderMode": "CANVAS",
+                      "isLoading": false
+                    }
+                  ],
+                  "key": "f9cj79x55t"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "1g6v5fvwbl",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 63,
+              "widgetId": "d7g0fkmj2p",
+              "containerStyle": "card",
+              "isVisible": "{{appsmith.store?.adminFlag == true }}",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "Button1",
+          "Canvas1",
+          "Canvas2",
+          "Container1",
+          "Container2",
+          "Iframe1",
+          "MainContainer",
+          "MenuButton1",
+          "Text1"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Recommender",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6218e4d2445a8d746a05fc6b"
+}

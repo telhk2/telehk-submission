@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tloginAdminNavigation: () => {\n\t\tlet loginQueryResult = loginQuery.data;\n\t\tif (loginQueryResult.length >= 1) {\n\t\tif (adminCheckbox.isChecked) {\n\t\t\tlet adminQueryResult = loginQueryResult.filter(x => x.adminFlag === true);\n\t\t\tif (adminQueryResult?.length > 0) {\n\t\t\t  storeValue(\"adminFlag\", true, true);\n\t\t\t\tstoreValue(\"username\", adminQueryResult[0].username, true);\n\t\t\t\tnavigateTo('Admin Dashboard');\n\t\t\t} \n\t\t} else {\n\t\t\tlet volunteerQueryResult = loginQueryResult.filter(x => x.adminFlag === false);\n\t\t\tif (volunteerQueryResult?.length > 0) {\n\t\t\t\tstoreValue(\"adminFlag\", false, true);\n\t\t\t\tstoreValue(\"username\", volunteerQueryResult[0].username, true);\n\t\t\t\tnavigateTo('Volunteer Event Listing');\n\t\t\t}\n\t\t}\n\t} else {\n\t\tshowAlert('incorrect user and/or password','warning');\n\t}\n\t},\n\t\tsignupSubmission: async () => {\n\t\t\tawait signupCheckQuery.run().then(x => {\n\t\t\t\t\t\t\tif (x?.length >= 1) {\n\t\t\tshowAlert('user already exists','warning');\n\t\t\treturn;\n\t} else {\n\t\tif (usernameSignup.text && firstnameSignup.text && lastNameSignup.text && emailSignup.text && genderSignup.selectedOptionLabel && ageSingup.text && skillSignup.selectedOptionValues && interestSignup.selectedOptionValues) {\n\t\t\tsignupUserPassInsert.run();\n\t\t\tformSubmitInsert.run();\n\t\t\tcloseModal('signupModal');\n\t\t} else {\n\t\t\tshowAlert('please fill up the remaining fields', 'warning');\n\t\t}\n\t}\n\t\t\t});\n\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Login_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6223455e45ea27345b4960ab"
+}
