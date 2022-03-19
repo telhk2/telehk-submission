@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "name": "logout",
+    "fullyQualifiedName": "JSObject1.logout",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\t//use async-await or promises\n\t}",
+      "body": "() => {\n\t\t\t  storeValue(\"adminFlag\", undefined, true);\n\t\t\t\tstoreValue(\"username\", undefined,true);\n\t\t\t\tnavigateTo('Login');\n\t}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\t//use async-await or promises\n\t}"
+      "() => {\n\t\t\t  storeValue(\"adminFlag\", undefined, true);\n\t\t\t\tstoreValue(\"username\", undefined,true);\n\t\t\t\tnavigateTo('Login');\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Admin Dashboard_myFun2",
+  "id": "Admin Dashboard_logout",
   "deleted": false,
-  "gitSyncId": "6210f8f06b4b1e154a3f1638_622365d345ea27345b496124"
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235cd954d9aea1b062acd7c"
 }

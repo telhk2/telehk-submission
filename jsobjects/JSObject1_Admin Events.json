@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "JSObject1",
-    "pageId": "Admin Dashboard",
+    "pageId": "Admin Events",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "id": "Admin Dashboard_JSObject1",
+  "id": "Admin Events_JSObject1",
   "deleted": false,
-  "gitSyncId": "6210f8f06b4b1e154a3f1638_622365d345ea27345b496128"
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235ce824d9aea1b062acd88"
 }
