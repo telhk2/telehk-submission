@@ -66,7 +66,7 @@ Google Data Studio is used in four main areas for reporting and visualisation pu
 4. Event Recommender Engine where Food Bank’s administrator could use it to recommend volunteer events to volunteer based on the volunteers’ interested event category and availability. 
 
 
-#Technical Write-up
+# Technical Write-up
 
 ## Google Sheets - ‘Master Spreadsheet’ file
 
